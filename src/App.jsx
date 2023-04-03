@@ -4,7 +4,12 @@ import Customizer from "./pages/Customizer";
 import Home from "./pages/home";
 
 const App = () => {
-  return <div className="head-text">Welcome</div>;
+  return (
+    <>
+      <Home />
+      <Customizer />
+    </>
+  );
 };
 
 export default App;
